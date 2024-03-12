@@ -1,0 +1,53 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilo para el mapa */
+#map {
+    height: 400px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los botones */
+#fetchButton,
+#loadPostsButton,
+#getLocationButton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#fetchButton:hover,
+#loadPostsButton:hover,
+#getLocationButton:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para el componente */
+mi-componente {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+mi-componente p {
+    margin: 0;
+}

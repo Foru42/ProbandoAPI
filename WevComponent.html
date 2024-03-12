@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Componente con Promise</title>
+    <link rel="stylesheet" href="css/comp.css">
+</head>
+<body>
+    <div id="map"></div>
+
+    <mi-componente></mi-componente>
+    <button id="fetchButton">Cargar Datos SpaceX</button>
+    <button id="loadPostsButton">Cargar Posts</button>
+    <button id="getLocationButton">Obtener Ubicación</button>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCoBuHN9ZKJdCvC5FgxeOUVUs1YZjYOEbI&callback=initMap" async defer></script>
+    <script src="js/script.js"></script>
+    <script src="js/location.js"></script>
+</body>
+</html>
